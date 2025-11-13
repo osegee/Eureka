@@ -24,7 +24,6 @@ button {
 }
 
 h1 {
-  max-width: 675px;
   color: white;
   font-weight: 500;
   font-size: 69px;
@@ -148,4 +147,52 @@ p {
 .social_links {
   display: flex;
   gap: 20px;
+}
+
+/* tablet responsive*/
+@media (max-width: 768px) {
+  /* nav */
+  .nav_container {
+    width: 90%;
+  }
+  /* hero */
+  .hero {
+    width: 90%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 12px;
+    max-width: 270px;
+  }
+  button {
+    font-size: 16px;
+  }
+
+  .hero-content {
+    gap: 16px;
+  }
+  /* content */
+  .content_container p {
+    max-width: 270px;
+  }
+  .content_container {
+    padding: 70px 90px;
+    gap: 30px;
+  }
+  /* product */
+  .content_product {
+    padding: 70px 90px 70px 90px;
+    gap: 30px;
+  }
+  .product_images {
+    gap: 12px;
+  }
+
+  /* footer*/
+  .footer_container {
+    padding: 0 90px 0 90px;
+    gap: 30px;
+  }
 }
