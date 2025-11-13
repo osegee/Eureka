@@ -159,6 +159,9 @@ p {
   .hero {
     width: 90%;
   }
+  a {
+    font-size: 12px;
+  }
   h1 {
     font-size: 40px;
   }
