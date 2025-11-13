@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "General Sans", sans-serif;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  padding: 6px 24px;
+  border: none;
+  border-radius: 9999px;
+  background-color: #d3ff56;
+  color: #00101a;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h1 {
+  max-width: 675px;
+  color: white;
+  font-weight: 500;
+  font-size: 69px;
+  line-height: 90%;
+}
+p {
+  max-width: 330px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+}
+/* navbar */
+.nav_container {
+  padding: 24px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* hero */
+.hero_image {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero_image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+.hero {
+  position: absolute;
+  width: 80%;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 24px 40px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+}
+
+/* content */
+.content_container {
+  padding: 100px 140px;
+  background-color: #00101a;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.content_container p {
+  max-width: 310px;
+}
+
+.content_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.image_content {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image_content img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+/* product */
+.content_product {
+  padding: 100px 140px 100px 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.content_title h1 {
+  color: #00101a;
+}
+
+.product_images {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+/*footer*/
+.footer_container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 140px 0 140px;
+  gap: 48px;
+}
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+.socials p {
+  color: #00101a;
+}
+
+.social_links {
+  display: flex;
+  gap: 20px;
+}
